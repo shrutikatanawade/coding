@@ -1,0 +1,13 @@
+#define LED 11 //Declare LED at pin 11
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(11, OUTPUT);  //Sets pin 11 as output
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(11, HIGH);  //Switch on LED
+  delay(1000);                    //pause for 1 second
+  digitalWrite(11, LOW);   //Switch off LED
+  delay(1000);                    //pause for 1 second
+}
